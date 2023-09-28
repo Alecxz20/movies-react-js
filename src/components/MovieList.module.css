@@ -1,0 +1,9 @@
+.movie__container {
+    width: 100vw;
+    max-width: 1040px;
+    list-style-type: none;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 1rem;
+}
